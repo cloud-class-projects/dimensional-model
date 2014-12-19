@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<KVPAccountName>dimensionalmodelkvp</KVPAccountName>
+    <KVPAccountKey>3GOFSdMsKIr8YVOIqiwy5maDYkDDM7PVYj8n+0lkFQ0h2TFpLUv4pRCG6MhCfwgxN9fhqlk/90RolqKgYvavOQ==</KVPAccountKey>
+    <KVPConnectionString>DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}</KVPConnectionString>
+
+    <BlobAccountName>dimensionalmodelblob</BlobAccountName>
+	<BlobContainerName>dimensionalmodelblobcontainer</BlobContainerName>
+    <BlobAccountKey>7enERX48ZHI+U/gCorRNOoME6cMY7Ws/MlOSIFGs0J2DhhooCP8GTvnPP320nOamN9lgU93vpb0RBZSjrlXjQA==</BlobAccountKey>
+    <BlobConnectionString>DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}</BlobConnectionString>
+    
+    <SQLServerName>tcp:qnrv4u0cye.database.windows.net,1433</SQLServerName>
+    <SQLServerDatabase>DimensionalModelProject</SQLServerDatabase>
+    <SQLServerUserID>braeniel@qnrv4u0cye</SQLServerUserID>
+    <SQLServerPassword>G38RpxhIGY3EdECvdEwB</SQLServerPassword>
+    <SQLServerConnectionString>Server={0};Database={1};User ID={2};Password={3};Trusted_Connection=False;Encrypt=True;Connection Timeout=30;</SQLServerConnectionString>
+  <SQLQueries>
+		<Product>SELECT PRD.* FROM src.Product PRD</Product>
+    <dimProduct>SELECT * FROM dw.dimProduct</dimProduct>
+		<DistinctProduct>SELECT DISTINCT TOP 100  CONCAT(PRD.ProductId, '_', PRD.SubModel) as RowKey FROM src.Product PRD</DistinctProduct>
+	</SQLQueries>
+	
+	<SubscriptionID>1fdb20e3-4850-492d-8298-addb0e39838e</SubscriptionID>
+	<HDICertificateName>Pay-As-You-Go-12-18-2014-credentials</HDICertificateName>
+	<HDIClusterName>DimensionalModelCluster</HDIClusterName>
+	<HDIUserID>afeavegeafvv456z4</HDIUserID>
+	<HDIPassword>42890hTq2894th240!-n0893</HDIPassword>
+ </Settings>
