@@ -1,0 +1,5 @@
+C:\Users\bnielsen\OneDrive\College\OpenSource\HDInsight\DimensionalModelETL\DimensionalModelETL.Configuration\bin\Debug\DimensionalModelETL.Configuration.dll
+C:\Users\bnielsen\OneDrive\College\OpenSource\HDInsight\DimensionalModelETL\DimensionalModelETL.Configuration\bin\Debug\DimensionalModelETL.Configuration.pdb
+C:\Users\bnielsen\OneDrive\College\OpenSource\HDInsight\DimensionalModelETL\DimensionalModelETL.Configuration\obj\Debug\DimensionalModelETL.Configuration.csprojResolveAssemblyReference.cache
+C:\Users\bnielsen\OneDrive\College\OpenSource\HDInsight\DimensionalModelETL\DimensionalModelETL.Configuration\obj\Debug\DimensionalModelETL.Configuration.dll
+C:\Users\bnielsen\OneDrive\College\OpenSource\HDInsight\DimensionalModelETL\DimensionalModelETL.Configuration\obj\Debug\DimensionalModelETL.Configuration.pdb

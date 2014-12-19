@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalModelETL", "DimensionalModelETL\DimensionalModelETL.csproj", "{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalModelETL.DataLayer", "DimensionalModelETL.DataLayer\DimensionalModelETL.DataLayer.csproj", "{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalModelETL.WorkflowLayer", "DimensionalModelETL.WorkflowLayer\DimensionalModelETL.WorkflowLayer.csproj", "{B6E35779-F54A-438B-A617-2D902087B38E}"
+EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DimensionalModelETL.SSIS", "DimensionalModelETL.SSIS\DimensionalModelETL.SSIS.dtproj", "{34B56496-1573-47A0-8D4E-09A573C01A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalModelETL.Configuration", "DimensionalModelETL.Configuration\DimensionalModelETL.Configuration.csproj", "{F70C6750-A9B5-4A04-A1BC-99079FB8E639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DimensionalModelETL.Test", "DimensionalModelETL.Test\DimensionalModelETL.Test.csproj", "{24CAB2EF-B97F-4153-842C-608132289008}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE9D3A0-C1F4-4A5A-8786-E64ABC4C7606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF233ACB-3930-4DE8-BF33-6BCBED7A9BFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E35779-F54A-438B-A617-2D902087B38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Debug|Any CPU.ActiveCfg = Development
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Debug|Any CPU.Build.0 = Development
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Development|Any CPU.ActiveCfg = Development
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Development|Any CPU.Build.0 = Development
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Release|Any CPU.ActiveCfg = Development
+		{34B56496-1573-47A0-8D4E-09A573C01A4B}.Release|Any CPU.Build.0 = Development
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70C6750-A9B5-4A04-A1BC-99079FB8E639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CAB2EF-B97F-4153-842C-608132289008}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
