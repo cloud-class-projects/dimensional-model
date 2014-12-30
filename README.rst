@@ -1,4 +1,5 @@
---- Installation Instructions ---
+Installation Instructions
+==================================
 
 1. Make sure that you have .NET 4.5 installed on the machine
 2. Download the solution files from GitHub
@@ -11,11 +12,14 @@
 6. You may have to copy the assemblies as well.
 6. Run the executable file.
 7. Test one:
+
 	a. Click Load AST Current button
 	b. This will pull in a row from Azure SQL Database
 	c. It will send that row to Azure Table Storage
 	d. It will query retrieve the row from Azure Table Storage and display it in a window
+
 8. Test two:
+
 	a. Click Create Product from AST button
 	b. This will pull in the first 100 partition keys
 	c. It will transform the rows into date ranges suitable for a dimensional table
@@ -23,14 +27,16 @@
 	e. The results will be uploaded to Azure SQL Database
 	f. The application will query the result table and display them on the screen
 
---- Notes ---
+Notes
+==============
+
 The tests are pulling in small amounts of rows.  This is intentional.  If they work with a few rows they will work on many rows.  
 Plus the VM is fairly tiny and can't handle a large workload.
 
-Some of the buttons are disabled.  This is because clicking some of them would wipe out my carefully constructed data and begin a
-multi hour ETL process.  The HDInsight Cluster creation button is disabled because it requires account credentials and it takes 30+ minutes just to make the cluster.
+Some of the buttons are disabled.  This is because clicking some of them would wipe out my carefully constructed data and begin a multi hour ETL process.  The HDInsight Cluster creation button is disabled because it requires account credentials and it takes 30+ minutes just to make the cluster.
 
---- Code Documentation ---
+Code Documentation
+=============================
 
 The C# application contains the following projects:
 DimensionalModelETL					Contains the GUI forms.
